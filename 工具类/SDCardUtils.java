@@ -46,10 +46,10 @@ public class SDCardUtils {
         if (isSDCardEnable()) {
             StatFs stat = new StatFs(getSDCardPath());
             // 获取空闲的数据块的数量
-            long availableBlocks = (long) stat.getAvailableBlocks() - 4;
+            long availableBlocks = stat.getAvailableBlocks();
             // 获取单个数据块的大小（byte）
-            long freeBlocks = stat.getAvailableBlocks();
-            return freeBlocks * availableBlocks;
+            long blockSize = stat.getBlockSize();
+            return blockSize * availableBlocks;
         }
         return 0;
     }
