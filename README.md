@@ -37,6 +37,8 @@
 
 [Android 开源项目分类汇总](https://github.com/Trinea/android-open-project)
 
+[AnimeTaste -- 优秀开源app](https://github.com/daimajia/AnimeTaste)
+
 [progit中文版教程](https://github.com/progit/progit)
 
 [git在线练习](https://github.com/pcottle/learnGitBranching)
