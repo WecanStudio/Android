@@ -31,3 +31,14 @@
 > 轮子
 
 > >待补充
+
+
+## 优秀开源项目推荐
+
+[Android 开源项目分类汇总](https://github.com/Trinea/android-open-project)
+
+[progit中文版教程](https://github.com/progit/progit)
+
+[git在线练习](https://github.com/pcottle/learnGitBranching)
+
+[leetcode](https://github.com/haoel/leetcode)
