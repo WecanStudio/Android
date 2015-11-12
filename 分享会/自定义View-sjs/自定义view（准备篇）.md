@@ -6,7 +6,7 @@
 
 > This class represents the basic building block for user interface components. A View occupies a rectangular area on the screen and is responsible for drawing and event handling. View is the base class for widgets, which are used to create interactive UI components (buttons, text fields, etc.). The ViewGroup subclass is the base class for layouts, which are invisible containers that hold other Views (or other ViewGroups) and define their layout properties.
 
-**View占据了屏幕中的一块矩形区域，负责视图的绘制和事件处理。view是所有控件的基类。**
+**View占据了屏幕中的一块矩形区域，负责视图的绘制和事件分发。view是所有控件的基类。**
 
 ![View的层次结构](https://raw.githubusercontent.com/WecanStudio/Android/master/%E5%9B%BE%E7%89%87/view.png)
 
