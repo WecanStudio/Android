@@ -42,6 +42,8 @@
 > MeasureSpec是一个32位的int值，封装了SpecMode和SpecSize。有了这个值，我们就可以为View测量出宽高。
 > 
 > MeasureSpec主要参与了View的measure过程,在测量过程中，系统会将View的LayoutParams根据父容器的所施加的规则转换成对用的MeasureSpec，最后根据这个MeasureSpec测量出
+
+
 #### SpecMode
 
 - UNSPECIFIED
@@ -51,7 +53,7 @@
 
 - EXACTLY
 > The parent has determined an exact size for the child. The child is going to be given those bounds regardless of how big it wants to be.
-
+>
 > View的最终大小即SpecSize指定的值，对应于LayoutParams中的math_parent和具体的数值两种模式。
 
 - AT_MOST
