@@ -46,4 +46,6 @@
 
 [SlideBottomPanel](https://github.com/kingideayou/SlideBottomPanel)
 
+[PasswordView](https://github.com/xdsjs/PasswordView)
+
 

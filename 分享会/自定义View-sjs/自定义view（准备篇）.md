@@ -134,8 +134,9 @@ onDetachedFromWindow()调用时机：**当包含此View的Activity启动时**
 
 可以调用invalidate()来绘制一个View。
 
-## paint、canvas等api
+### onSizeChanged()
 
+当View的尺寸发生变化时调用
 
 ***
 # 参考资料：
