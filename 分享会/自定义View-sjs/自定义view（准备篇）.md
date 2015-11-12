@@ -10,7 +10,7 @@
 
 ![View的层次结构](https://raw.githubusercontent.com/WecanStudio/Android/master/%E5%9B%BE%E7%89%87/view.png)
 
-**可以看到，ViewGroup也继承自View，这就意味着View本身就可以使单个控件也可以是由多个控件组成的一组控件。通过这种关系就形成了View的树形结构。**
+**可以看到，ViewGroup也继承自View，这就意味着View本身就可以是单个控件也可以是由多个控件组成的一组控件。通过这种关系就形成了View的树形结构。**
 
 ## View中的位置参数
 - top、left、right、bottom
